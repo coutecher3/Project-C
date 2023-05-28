@@ -1,14 +1,16 @@
 
-void InitP(int* p) {
-    cin >> p;
+
+void iniVoid(void* p, string type) {
+    if (type == "int")
+        cin >> (int*)p;
 }
-void crush() {
-    return2;
-}
-void iniVoid(void v) {
-    cin >> v;
-}
-int main() {
-    "Hello world"
+
+    void initP(int* p)
+    {
+        cin >> p;
+    }
+    int main() 
+    {
+        cout << "Hello world" << endl;
     
 }
